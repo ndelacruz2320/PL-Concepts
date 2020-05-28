@@ -1,0 +1,3 @@
+﻿  fuction.cpp
+c:\users\nicod\source\repos\ploptimize\ploptimize\fuction.cpp(14): warning C4018: '<': signed/unsigned mismatch
+  PLOptimize.vcxproj -> C:\Users\nicod\source\repos\PLOptimize\Debug\PLOptimize.exe

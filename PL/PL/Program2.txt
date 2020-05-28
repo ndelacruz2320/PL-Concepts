@@ -1,0 +1,45 @@
+print8()
+{
+	number a;
+	number b;
+	number c;
+	number d;
+	number e;
+	
+	a = 1.0;
+	b = 2.0;
+	c = a + b;
+	print c;
+	c = a + 3.0;
+	print c;
+	c = 1.0 + b;
+	print c;
+	d = a + b + c + 1.0 + 1.0 + 2.0;
+	print d;
+	
+	int ai;
+	int bi;
+	int ci;
+	int di;
+	int ei;
+	
+	ai = 1;
+	bi = 2;
+	ci = ai + bi;
+	print ci;
+	ci = ai + 3;
+	print ci;
+	ci = 1 + bi;
+	print ci;
+	di = ai + bi + ci + 1 + 1 + 2;
+	print di;
+}
+
+main()
+{
+	int a;
+	print a;
+	print8();
+	a =  8123 + 1;
+	print a;
+}

@@ -1,0 +1,84 @@
+#33 #5 #10
+goodfunction()
+-{
+	int hi;
+	vector2 vec;
+	hi = hi;
+	vec.x = #0;
+	vec.y = vec.x;
+	-{
+		number bye;
+		if hi == hi
+		-{
+			bye = bye;
+		}-
+		if hi < hi
+		-{
+			bye = bye;
+		}-
+		if hi > vec.x
+		-{
+			bye = bye;
+		}-
+
+		for int i; i < #8 i = ((i) + (#1)); 
+			bye = bye + #1;
+	}-
+
+	return #5+vec.x/vec.x,#1-time*time/#5;
+}-
+
+badfunction()
+-{
+	number a;
+	int b;
+	b.x = a;
+
+
+	if c == d
+	-{
+	
+	}-
+
+	return #5+vec.x/vec.x,#1-time*timeb;
+}-
+
+badfunction()
+-{
+	return a,a;
+}-
+
+badfunction()
+-{
+	return #1,#1;
+}-
+
+badfunction()
+-{
+	return #1.1,#1.1;
+}-
+
+badfunction()
+-{
+	vector2 x;
+	return x.z,x.z;
+}-
+
+badfunction()
+-{
+	vector2 x;
+	return x,x;
+}-
+
+badfunction()
+-{
+	vector2 x;
+	return x + #1 ,x / #1;
+}-
+
+
+badfunction()
+-{
+	notatype x;
+	return time,time;
+}-

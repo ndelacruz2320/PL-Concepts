@@ -1,0 +1,2 @@
+setstr s1 "theStartOfMain"
+print s1

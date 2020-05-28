@@ -1,0 +1,102 @@
+#33 #5 #10
+testfunction()
+-{
+	int hi;
+	-{
+	-{
+	int x;
+	}-
+	}-
+	return #5.5,time;
+}-
+
+
+anotherfunction()
+-{
+	int hi;
+	-{
+	-{
+	int x;
+	}-
+	}-
+	int y;
+	vector2 hello;
+	golf ball;
+	great ball;
+	good ball;
+	gallon baloon;
+	doesthis work;
+	sillynames arecook;
+	-{
+	-{
+	-{
+
+	-{
+	-{
+	-{
+	-{
+	-{
+	-{
+
+
+
+	}-
+	}-
+	}-
+
+
+	}-
+	}-
+	}-
+
+	}-
+	}-
+	}-
+	return #5.5,time;
+}-
+
+
+testfunction2()
+-{
+	int hi;
+	-{
+	-{
+	int x;
+	}-
+	}-
+	int y;
+	vector2 hello;
+	golf ball;
+	great ball;
+	good ball;
+	gallon baloon;
+	doesthis work;
+	sillynames arecook;
+	-{
+	-{
+	-{
+
+	-{
+	-{
+	-{
+	-{
+	-{
+	-{
+
+
+
+	}-
+	}-
+	}-
+
+
+	}-
+	}-
+	}-
+
+	}-
+	}-
+	}-
+	return #5.5,time;
+}-
+

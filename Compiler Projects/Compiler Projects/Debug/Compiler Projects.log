@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\nicod\source\repos\compiler projects\compiler projects\myinterpreter.h(9): error C2365: 'FUNCTIONCALL': redefinition; previous definition was 'enumerator'
+  c:\users\nicod\source\repos\compiler projects\compiler projects\myinterpreter.h(9): note: see declaration of 'FUNCTIONCALL'
+  Interpreter.cpp
+c:\users\nicod\source\repos\compiler projects\compiler projects\interpreter.cpp(158): warning C4018: '<': signed/unsigned mismatch
+c:\users\nicod\source\repos\compiler projects\compiler projects\interpreter.cpp(214): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...

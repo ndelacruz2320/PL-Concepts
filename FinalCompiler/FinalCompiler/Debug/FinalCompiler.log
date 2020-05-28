@@ -1,0 +1,13 @@
+﻿  Interpreter.cpp
+c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(235): warning C4018: '<': signed/unsigned mismatch
+c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(254): error C2664: 'I_Reg::I_Reg(I_Reg &&)': cannot convert argument 1 from 'bool' to 'const I_Reg &'
+  c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(254): note: Reason: cannot convert from 'bool' to 'const I_Reg'
+  c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(254): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(258): error C2664: 'I_Reg::I_Reg(I_Reg &&)': cannot convert argument 1 from 'bool' to 'const I_Reg &'
+  c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(258): note: Reason: cannot convert from 'bool' to 'const I_Reg'
+  c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(258): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\nicod\source\repos\finalcompiler\finalcompiler\interpreter.cpp(291): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...

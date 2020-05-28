@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\nicod\source\repos\interpreter\interpreter\main.cpp(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\nicod\source\repos\interpreter\interpreter\main.cpp(132): warning C4018: '<': signed/unsigned mismatch
+  Interpreter.vcxproj -> C:\Users\nicod\source\repos\Interpreter\Debug\Interpreter.exe

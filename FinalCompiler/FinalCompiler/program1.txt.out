@@ -1,0 +1,5 @@
+function main
+set s1 6.5
+set s2 12.3
+add s3 s1 s2
+print s3

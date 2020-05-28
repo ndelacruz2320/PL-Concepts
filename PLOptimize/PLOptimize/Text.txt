@@ -1,0 +1,43 @@
+#include "function.h"
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int op(vector<unsigned int> * theVec)
+{
+	//you may only modify the code in this fuction; you may not inline assembly instructions as they are most likely not cross compatible. 
+	//what i have placed here is a copy of the unoptimzied function
+
+	int size = theVec-> size(); //Minimize the vector function call
+	int amountToRemove;
+	unsigned int i = 0; //removed call stacks by removing new creation of unsigned ints
+	unsigned int * vecPoint = theVec->data(); //again minimizing fucntion calls by using the  [ ] operator
+
+	for (i = 0; i < size; i++)
+	{
+		 vecPoint[i] = ( vecPoint[i] + 1) << 1; //loop join
+
+			amountToRemove = ( vecPoint[i] >> 8) << 8 ; // reduced number of times accessing the stack.
+			 vecPoint[i] =  vecPoint[i] - amountToRemove;	
+	}
+
+	for (i = 0; i < size; i += 2)
+	{
+		 vecPoint[i] =  vecPoint[i] +  vecPoint[i + 1];
+	}
+	int result = size;
+	for (i = 0; i < size; i++)
+	{
+		if ( vecPoint[i] & 1)
+			 vecPoint[i] =  vecPoint[i] + 1;
+		if ( vecPoint[0] % 7 == 1)
+			 vecPoint[i] =  vecPoint[i] + 1; //loop join
+		
+		if (!(i & 1))
+		{
+			result += vecPoint[i] + vecPoint[i + 1];
+		}
+	}
+
+	return result;
+}
